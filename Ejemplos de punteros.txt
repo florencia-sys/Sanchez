@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void CambiarPorValor (int unDato);
+void CambiarPorReferencia(int* unDato);
+int DameUnEntero() ;
+int main()
+{
+    int numero;
+    numero = 22;
+    CambiarPorValor(numero);
+    printf ("numero = %d\n", numero);
+    return 0;
+}
+
+void CambiarPorValor (int unDato)
+{
+    unDato = 99;
+    printf ("dato= %d", unDato);
+}
+
+void CambiarPorReferencia (int* unDato)
+{
+    int main()
+{
+    int numero;
+    numero = 22;
+    CambiarPorValor(numero);
+    printf ("numero = %d\n", numero);
+
+    cambiarPorReferencia(&numero);
+    printf ("\n numero= %d", numero);
+
+    void CambiarPorValor (int* unDato);
+    {
+        unDato = 99;
+        printf ("\n dato por valor = %d", numero);
+    }
+    
+    
+    
+    void CambiarPorReferencia (&numero);
+    {
+        *unDato = 99;
+        printf ("\n dato por referencia = %d", numero);
+    }
+        
+        
+
+    return 0;
+}
+}
