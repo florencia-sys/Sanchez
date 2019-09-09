@@ -1,0 +1,84 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "cabeceras.h"
+#define CANTIDAD 5
+
+int main()
+{
+    int arrayDeSillas [CANTIDAD];
+    int maximo, minimo;
+    int cargarArray[silla, CANTIDAD];
+    int MostrarArray[silla, CANTIDAD];
+    int DameElMaximo, DameELMinimo;
+{
+
+    printf("/nMaximo: %d", DameElMaximo(arrayDeSillas[], CANTIDAD));
+    printf("/nMinimo: %d", DameElMinimo(arrayDeSillas[], CANTIDAD));
+    printf ("/n----------------------------------------/n");
+    if ( ocuparSilla (arrayDeSillas[], CANTIDAD, 4, 23))
+    {
+        printf ("Ocupando silla en la posicion 4 con el #include <stdio.h>
+#include <stdlib.h>
+#include "cabeceras.h"
+#define CANTIDAD 5
+
+void cargarArrayConHardcode ( int arrayDeSillas[], CANTIDAD)
+{
+    int CANTIDAD = 5;
+    int numero;
+    int cantidad;
+    int arrayDeSillas [5]= {55, 11, 22, 33, 44};
+    int arrayDeInicio [];
+
+    void incializarArray ( int arrayDeSillas[], cantidad; int valorDeInicio)
+    {
+        for (i = 0; i < cantidad; i++)
+        {
+            arrayDeSillas[i] = arrayDeInicio[i];
+
+        }
+    }int estaLibre ( int arrayDeSillas[], cantidad, int laSilla, int valorInicial)
+    {
+        int return = 0;
+
+        if (arrayDeSillas[laSilla] == valorInicial;)
+        {
+            return = -1;
+        }
+        return retorno;
+}
+
+int Ocuparsilla (int arrayDeSillas[], int cantidad, int laSilla, int legajo)
+{
+    int retorno = -1
+    int estaLibreLaSilla;
+    if (laSilla < cantidad)
+    {
+        estaLibreLaSilla = EstaLibre (arrayDeSillas, cantidad, laSilla, -1);
+        if (estaLibreLaSilla = 1)
+        {
+            arrayDeSillas [laSilla] = legajo;
+        }
+    }
+}
+
+valor 23: Ok /n")
+    }
+    else
+        {printf ("ERROR/n")}
+
+
+
+
+/*
+    maximo = DameElMaximo(arrayDeSillas[], CANTIDAD);
+    printf ("%d", maximo);
+
+    minimo = DameElMinimo(arrayDeSillas[], CANTIDAD);
+    printf ("%d", minimo);
+}
+
+void incializarArray (arrayDeSillas[], CANTIDAD);
+    void cargarArrayConHardcode(arrayDeSillas[], CANTIDAD);
+}
+*/
