@@ -1,31 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include "Operaciones.h"
+#include "Input.h"
+
+
+
+
+
+void funcion(int*);
+
 
 int main()
 {
-    char palabra [10];
-    char otraPalabra [10] = "chau";
-    int largo;
-    int comp;
-
-    printf ("Ingrese una palabra: ");
-    fflush (stdin);
-    gets (palabra);        //scanf("%[^\n]", palabra); // EN LINUX: se usa para leer archivos, fgets (palabra, (cantidad de letras), stdin);
-
-    strcpy (palabra, otraPalabra);       // strcpy (destino, origen);
-    printf ("%s", palabra);
-    /*
-    largo = strlen(palabra);
-    palabra[largo - 1] = '/0';
-
-    largo = strlen(palabra);
-
-    printf ("El largo es: %d", largo);
-    */
-
-    comp = strcmp (palabra, otraPalabra);
-    printf ("\nCompara: %d", comp);
-
+    int numero = 100;
+   funcion(&numero);
+    printf("Numero en el main: %d", numero);
     return 0;
 }
+
+void funcion(int* numero)
+{
+    //*numero = 5;
+    int n;
+    printf("Ingrese numero: ");
+    scanf("%d", numero);
+
+}
+
