@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+//#include "TP_2.h"
+#define list 1000
+
+
+  typedef struct {
+int id;
+char name [51];
+char lastName [51];
+int salary;
+int sector;
+int isEmpty;
+    } Employee;
+
+    int initEmployees (arrayEmployees,int len);
+    int addEmployee(Employee[list], int len, int id, char name[],char lastName[],float salary,int sector)
+    int findEmployees (Employee[list], int len,int id);
+    int removeEmployees (Employee [list], int len, int id);
+    int sortEmployees(Employee[list], int len, int order);
+    int printEmployees(Employee[list], int length);
+
+int main()
+{
+
+int opcion;
+
+    do
+    {
+    printf ("1. ALTAS\n 2. MODIFICACIONES\n 3.BAJAS\n 4.SALIR\n");
+
+        switch (opcion)
+        {
+    case 1:
+
+     for (int i = 0; i < 1000; i ++)
+    {
+    printf ("Ingrese nombre de empleado: \n");
+    gets (name);
+    printf ("Ingrese apellido de empleado: \n");
+    gets (lastName);
+    printf ("Ingrese salario de empleado: \n");
+    scanf ("%d", salary);
+    printf ("Ingrese sector de empleado: \n");
+    scanf ("%d", sector);
+    }
+
+
+
+}while (opcion != 's')
+}
+
+
+}
