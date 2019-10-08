@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1570542689 source:d:\primer parcial parte uno\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"cabecaras.h"
+
+1570542689 d:\primer parcial parte uno\cabecaras.h
+	<stdio.h>
+	<stdlib.h>
+
+1570542689 source:d:\primer parcial parte uno\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cabecaras.h"
+
