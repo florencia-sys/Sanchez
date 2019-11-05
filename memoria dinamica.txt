@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int ll_len(LinkedList* lista)
+
+int returnAux = -1;
+if (lista != NULL)
+    
+    returnAux = lista->size;
+
+
+
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}
+
+/*
+El pop puede llamar al remove.
+El contains va a preguntar si hay un elemento en la lista.
+El contains_Al, recibe 2 listas, conjunto A y conjunto B (LinkedList A y B), devuelve la lista contenida en otra, osea
+A contenida en B. ( tienen que estar apuntando a la misma direccion de memoria).
+El sub_list me devuelve una nueva litas de toda la lista original o un pedacito, que yo le pido. con desde y hasta, hasta no incluido.
+El clone crea una lista nueva.Se mueven los nodos.
+El sort ordena nodos, los datos siempre estan en el mismo lugar. (Hacer un get y un add). Recibe 2 punteros a void.
+
+indexOf recibe un indice del elemento, le paso el dato y me devuelve el indice.
